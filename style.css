@@ -11,3 +11,20 @@
  Tags:         ucla, child
  Text Domain:  uclascchild
 */
+
+.widget-container { 
+  border-top: 3px solid #FFD100;
+  padding-bottom: 60px;
+}
+.widget-title { 
+  margin-top: 1.5rem; 
+  margin-bottom: 0.75rem;
+}
+
+h3 { margin: 1.5rem 0; }
+
+h4 { margin: 1rem 0; }
+
+.header p.intro { 
+  padding: 0 !important; 
+}
