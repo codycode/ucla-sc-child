@@ -27,3 +27,17 @@ function remove_parent_widget_init()
   }
   
 }
+
+add_action('wp_head','my_analytics', 20);
+function my_analytics() {
+?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26575989-48"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	    function gtag(){dataLayer.push(arguments);}
+	    gtag('js', new Date());
+	    gtag('config', 'UA-176255018-1');
+	    </script>
+<?php
+}
